@@ -1,0 +1,36 @@
+.header {
+    background:goldenrod;
+    color:white;
+    height:5em;
+    display:flex;
+    justify-content: space-between;
+}
+.brand {
+    align-content: center;
+    font-size:.80em;
+    color:blue;
+    background:white;
+    float:left;
+    border-radius: 20px;
+    margin-top:1em;
+}
+.menu{
+    display:none;
+}
+.menu ul{
+    list-style: none;
+    display:flex;  
+}
+/* Menu display */
+.show-menu {
+    display:block;
+    background-color: hotpink;
+    list-style:none;
+}
+
+.menu li {
+    margin:.2em;
+}
+div  {
+    margin:1rem 2rem 1rem 2rem;
+}
